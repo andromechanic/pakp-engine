@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pakp-engine"
+version = "0.1.0"
+description = "PAKP: Predictive Asymmetric KV-Paging via Centered Bounding-Box Lookahead for Sub-6GB Edge GPUs"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Akhil Muralidas" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.1.0",
+    "transformers>=4.42.0",
+    "accelerate>=0.30.0",
+    "matplotlib>=3.8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pakp*"]

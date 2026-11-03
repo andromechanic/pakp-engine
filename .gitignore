@@ -1,0 +1,34 @@
+# Virtual Environments
+env/
+venv/
+.venv/
+ENV/
+
+# Python Bytecode & Packaging
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+
+# LaTeX Build Artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Hugging Face & PyTorch Caches
+.cache/
+*.safetensors
+*.bin
+build_repo.py
+gemini-code-*.py

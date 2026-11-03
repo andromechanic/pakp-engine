@@ -1,0 +1,33 @@
+{
+  "sliding_window": {
+    "selected_pages": [],
+    "page_hit": false,
+    "vram_gb": 2.9,
+    "tokens_per_sec": 44.5,
+    "output": "\"123456\"."
+  },
+  "naive_mean": {
+    "selected_pages": [
+      0,
+      1,
+      2,
+      6
+    ],
+    "page_hit": true,
+    "vram_gb": 2.9,
+    "tokens_per_sec": 27.7,
+    "output": "7392-OMEGA."
+  },
+  "pakp_bbox": {
+    "selected_pages": [
+      0,
+      1,
+      2,
+      6
+    ],
+    "page_hit": true,
+    "vram_gb": 2.9,
+    "tokens_per_sec": 27.9,
+    "output": "7392-OMEGA."
+  }
+}
