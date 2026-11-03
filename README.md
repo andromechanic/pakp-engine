@@ -8,6 +8,7 @@
 [![CUDA](https://img.shields.io/badge/CUDA-12.x-76B900.svg)](https://developer.nvidia.com/cuda-toolkit)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI version](https://img.shields.io/pypi/v/pakp-engine.svg)](https://pypi.org/project/pakp-engine/)
 
 **Research preprint:** [10.5281/zenodo.23915486](https://doi.org/10.5281/zenodo.23915486) · **Implementation:** [andromechanic/pakp-engine](https://github.com/andromechanic/pakp-engine)
 
@@ -320,6 +321,10 @@ If you use or build on this work, please cite the preprint and identify the repo
 - PAKP is research software. Validate correctness, memory use, and performance for your own model and deployment environment before relying on it.
 
 ---
+Install via pip: pip install pakp-engine
+Preprint (DOI): https://doi.org/10.5281/zenodo.23915486
+GitHub Repository: https://github.com/andromechanic/pakp-engine
+
 
 ## License
 
