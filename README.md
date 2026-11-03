@@ -82,12 +82,12 @@ python benchmarks/generate_plots.py
 ---
 
 ## Academic Paper
-The full LaTeX source for the accompanying research paper is located in [`paper/main.tex`](paper/main.tex) and [`paper/references.bib`](paper/references.bib).
+The full LaTeX source for the accompanying research paper is located in [`PAKP_research_paper.pdf`](PAKP_research_paper.pdf).
 
 ```bibtex
-@article{muralidas2026pakp,
+@article{akhil2026pakp,
   title={PAKP: Predictive Asymmetric KV-Paging via Centered Bounding-Box Lookahead for Sub-6GB Edge GPUs},
-  author={Muralidas, Akhil},
+  author={Akhil M},
   year={2026}
 }
 ```
